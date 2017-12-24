@@ -33,7 +33,7 @@ public class User {
 
 
 	public User(String username, int userid) {
-		super();
+	
 		this.username = username;
 		this.userid = userid;
 	}
