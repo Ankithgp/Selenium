@@ -18,7 +18,7 @@ public class alert {
 		alrtmsg = driver.switchTo().alert().getText();
 		System.out.println(alrtmsg);
 		driver.switchTo().alert().accept();
-		driver.close();
+		//driver.close();
 		
 
 	}
